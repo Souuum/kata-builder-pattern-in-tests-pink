@@ -11,6 +11,14 @@ public class UserBuilder {
         return new User(nom,email,age,verified,address);
     }
 
+    private final Address parisAddress = new Address(
+            "33 quai d'Orsay",
+            "",
+            "Paris",
+            "75007",
+            "France"
+    );
+
     public UserBuilder withDefaultValues(){
       nom = "David";
       email = "David@test.com";

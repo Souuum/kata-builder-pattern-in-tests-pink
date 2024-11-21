@@ -6,13 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ShopTest {
-    private final Address parisAddress = new Address(
-        "33 quai d'Orsay",
-        "",
-        "Paris",
-        "75007",
-        "France"
-    );
+
 
 
     @Test
