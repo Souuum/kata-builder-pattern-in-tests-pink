@@ -9,6 +9,6 @@ public class Shop {
     }
 
     public static boolean mustPayForeignFee(User user) {
-        return !user.addres().country().equals("USA");
+        return !user.address().country().equals("USA");
     }
 }

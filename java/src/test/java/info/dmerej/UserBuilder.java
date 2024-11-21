@@ -52,5 +52,18 @@ public class UserBuilder {
         return this;
     }
 
+    public UserBuilder withForeignAddress(){
+        address = parisAddress;
+        return this;
+    }
 
+    public UserBuilder minor(){
+        age = 16;
+        return this;
+    }
+
+    public UserBuilder notVerified(){
+        verified = false;
+        return this;
+    }
 }
